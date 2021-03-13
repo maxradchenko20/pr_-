@@ -1,0 +1,188 @@
+*
+	font-family: 'Montserrat', sans-serif
+
+.nav
+	display: block
+	height: 88px
+	background: red
+header
+	background: white
+	position: fixed
+	top: 0
+	z-index: 100
+	width: 100%
+.menu
+	display: flex
+	justify-content: space-between
+	list-style-type: none
+	padding: 0
+
+	&_link
+		color: black
+		font-size: 18px
+		font-weight: 400
+
+		&:hover
+			color: red
+			text-decoration: none
+			padding-left: 5px
+			font-size: 20px
+			transition: 1s
+		&_black
+			font-weight: 700
+			color: black
+			font-size: 19px
+			&:hover
+				text-decoration: none
+				color: blue
+				font-size: 25px
+				transition: 1s
+
+	&_line
+		width: 100%
+		height: 1px
+		background: black
+		margin-top: 32px
+.info
+	min-height: 680px
+	&_me
+		height: 140px
+		display: flex
+		justify-content: space-between
+		align-items: flex-end
+		margin-top: 40px
+
+	&_name
+		font-size: 48px
+		font-weight: 700
+		margin-bottom: 0
+
+	&_brief
+		font-size: 18px
+		font-weight: 400
+	&_lang
+
+	&_img
+		padding-top: 53px
+		height: 400px
+		width: 100%
+		display: flex
+		justify-content: center
+
+		&_me
+			width: 100%
+			height: 400px
+
+.about
+	min-height: 506px
+	background: url("../img/bg/BD-Plaza-Gray-119-121-390x390.jpg")
+
+	&_info
+		padding: 107px 0
+	&_header
+		text-align: center
+		font-size: 42px
+		font-weight: 700
+	&_text
+		width: 485px
+		min-height: 218px
+		font-size: 18px
+		text-align: center
+		font-weight: 300
+		margin: 0 auto
+
+.skills
+	width: 100%
+	&_info
+		padding-top: 50px
+		text-align: center
+		&> h2
+			font-size: 34px
+			font-weight: 700
+		&> p
+			font-size: 18px
+			font-weight: 400
+	&_icons
+		min-height: 167px
+		padding-top: 84px
+		display: flex
+		justify-content: space-between
+		align-items: center
+		&_img
+			width: 150px
+			height: 150px
+
+	&_img
+		width: 600px
+		margin: 0 auto
+		display: flex
+		justify-content: space-around
+		align-items: center
+		font-size: 100px
+		padding-bottom: 50px
+
+		&_1 > a
+			color: yellow
+		&_2 > a
+			color: orange
+		&_3 > a
+			color: blue
+		&_2 > 4
+
+.footer
+	padding-top: 50px
+	background: silver
+	&_btn
+		cursor: pointer
+		&:hover
+			background: red
+			transition: 2s
+
+	&_info
+		text-align: center
+		&> h2
+			font-size: 34px
+	&_link
+		display: flex
+		justify-content: space-between
+		align-items: center
+		&_icon
+			width: 9%
+			display: flex
+			justify-content: space-between
+			align-items: center
+			margin-left: 5px
+			&_1, &_2, &_3, &_4
+				display: flex
+				justify-content: center
+				align-items: center
+				background-color: black
+				width: 50px
+				height: 40px
+				border-radius: 100%
+				margin-right: 3px
+
+				& > a
+					color: white
+					font-size: 20px
+
+			&_2
+				font-size: 30px
+			&_3
+				font-size: 30px
+				color: blue
+			&_4
+				font-size: 30px
+				color: dark
+	&_end
+
+		padding-bottom: 10px
+		text-align: center
+		padding-top: 10px
+		&_text
+
+		&_icon
+
+			&> a
+				font-size: 50px
+				color: green
